@@ -13,11 +13,11 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://img.r7.com/images/2015/09/25/5i06iixn4q_503e572fz7_file'); /* Substitua pelo URL da sua imagem */
+    background-image: url('https://img.r7.com/images/2015/09/25/5i06iixn4q_503e572fz7_file'); 
     background-size: cover;
     background-repeat: no-repeat;
     animation: float 2s ease-in-out infinite;
-    z-index: -1; /* Para garantir que a imagem de fundo esteja atrás do conteúdo */
+    z-index: -1;
 }
 
 .audio-controls {
@@ -25,7 +25,7 @@
 }
 
 
-/* Estilos globais */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -43,7 +43,6 @@ section {
     margin: 20px;
 }
 
-/* Estilos específicos para seções */
 h2 {
     color: #e7e3e3;
 }
@@ -61,40 +60,33 @@ footer {
     padding: 10px 0;
 }
 
-/* Cor do texto no conteúdo */
 body {
     color: #e6e6e6;
 }
 
-/* Cor do texto no cabeçalho */
 header {
-    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+    background-color: rgba(0, 0, 0, 0.7); 
     color: #fff;
 }
 
-/* Sombra de texto no conteúdo */
 body {
-    text-shadow: 1px 1px 1px black; /* Sombra clara */
+    text-shadow: 1px 1px 1px black; 
 }
 
-/* Sombra de texto no cabeçalho */
 header {
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Sombra escura */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
 }
 
-/* Tamanho da fonte no conteúdo */
 body {
     font-size: 16px;
 }
 
-/* Tamanho da fonte no cabeçalho */
 header {
     font-size: 24px;
 }
 
-/* Estilos para a imagem da capa da música */
 .capa-musica {
-    width: 200px; /* Defina a largura máxima como 100% */
-    height: auto; /* Mantenha a proporção original da imagem */
+    width: 200px; 
+    height: auto; 
 }
 
