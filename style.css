@@ -67,7 +67,6 @@ footer {
     height: auto; 
 }
 
-/* Media Queries para Responsividade */
 @media (max-width: 768px) {
     header {
         padding: 15px 0;
@@ -101,3 +100,21 @@ footer {
         font-size: 14px;
     }
 }
+
+#letra {
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-line; 
+    line-height: 1.6; 
+    text-align: left; 
+    padding: 20px;
+}
+
+#letra h2 {
+    margin-bottom: 20px; 
+    text-align: left; 
+}
+
+#letra p {
+    margin: 0;
+}
+
