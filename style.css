@@ -88,10 +88,20 @@ h2 {
 
 #audio {
     text-align: center;
+    margin: 20px auto;
 }
 
 audio {
     width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+audio:hover {
+    transform: scale(1.05);
 }
 
 #contato ul {
